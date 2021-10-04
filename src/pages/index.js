@@ -9,6 +9,15 @@ const titleStyle = {
   fontSize: 86
 }
 
+const link = {
+  textDecoration: "none",
+  color: "black"
+}
+
+const crosses = {
+  marginTop: 54
+}
+
 // data
 const links = [
   {
@@ -27,7 +36,9 @@ const IndexPage = () => {
       <div>
         <title>ROSEMARIE SUTANTO</title>
           <Layout pageTitle="">
-          <h1 style={titleStyle}>Coming Soon</h1>
+          <h1 style={titleStyle}>Coming Soon . . .</h1>
+          <p>In the meantime, find me on IG: <a href="https://www.instagram.com/rosemariesutanto" style={link}>@rosemariesutanto</a></p>
+          <p style={crosses}>+ + +</p>
          </Layout>
       </div>
     </main>
