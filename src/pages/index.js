@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 // styles
 
 const titleStyle = {
-  fontSize: 86
+  fontSize: 42
 }
 
 const link = {
@@ -36,7 +36,8 @@ const IndexPage = () => {
       <div>
         <title>ROSEMARIE SUTANTO</title>
           <Layout pageTitle="">
-          <h1 style={titleStyle}>Coming Soon . . .</h1>
+          <h1 style={titleStyle}>Coming Soon</h1>
+          <h1>. . .</h1>
           <p>In the meantime, find me on IG: <a href="https://www.instagram.com/rosemariesutanto" style={link}>@rosemariesutanto</a></p>
           <p style={crosses}>+ + +</p>
          </Layout>
