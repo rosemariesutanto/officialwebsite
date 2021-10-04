@@ -8,8 +8,7 @@ const pageStyles = {
     padding: 96,
     fontFamily: "roboto mono",
     // backgroundImage: `url(${Background})`,
-    textAlign: "center",
-    marginTop: 56
+    textAlign: "center"
   }
 
 const Layout = ({ pageTitle, children }) => {
