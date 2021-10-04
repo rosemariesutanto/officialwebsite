@@ -6,21 +6,17 @@ const pageStyles = {
     color: "#232129",
     padding: 96,
     fontFamily: "-apple-system, Roboto, sans-serif, serif",
-    backgroundImage: `url(${Background})`,
+    // backgroundImage: `url(${Background})`,
     backgroundPosition: "bottom",
     backgroundSize: "cover"
   }
+
+
 
 const Layout = ({ pageTitle, children }) => {
     return (
         <div style={pageStyles}>
             <title>{pageTitle}</title>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                </ul>
-            </nav>
             <main>
                 <h1>{pageTitle}</h1>
                 {children}

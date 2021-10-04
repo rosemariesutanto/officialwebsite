@@ -26,9 +26,8 @@ const IndexPage = () => {
     <main>
       <div>
         <title>ROSEMARIE SUTANTO</title>
-          <Layout pageTitle="Home Page">
-          <h1 style={titleStyle}>Coming Soon.</h1>
-            <p>I'm making this by following the Gatsby Tutorial.</p>
+          <Layout pageTitle="">
+          <h1 style={titleStyle}>Coming Soon</h1>
          </Layout>
       </div>
     </main>
