@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from 'gatsby';
 import Layout from '../components/layout'
+import Navbar from "../components/Navbar";
 
 
 // styles
@@ -34,6 +35,7 @@ const IndexPage = () => {
   return (
     <main>
       <div>
+        <Navbar />
         <title>ROSEMARIE SUTANTO</title>
           <Layout pageTitle="">
           <h1 style={titleStyle}>Coming Soon</h1>
