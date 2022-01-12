@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from 'gatsby';
 import Layout from '../components/layout'
 import Navbar from "../components/Navbar";
-
+import Styles from "../styles/home.module.css"
 
 // styles
 
@@ -35,12 +35,11 @@ const IndexPage = () => {
   return (
     <main>
       <div>
-        <Navbar />
         <title>ROSEMARIE SUTANTO</title>
           <Layout pageTitle="">
-          <h1 style={titleStyle}>Coming Soon</h1>
+          <h1 style={titleStyle}>Welcome!</h1>
           <h1>. . .</h1>
-          <p>In the meantime, find me on IG: <a href="https://www.instagram.com/rosemariesutanto" style={link}>@rosemariesutanto</a></p>
+          <p>This site is a work in progress...</p>
           <p style={crosses}>+ + +</p>
          </Layout>
       </div>

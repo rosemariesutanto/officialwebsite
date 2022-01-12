@@ -1,0 +1,45 @@
+* {
+    color: #232129;
+    font-family: "roboto mono";
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+45deg
+, #ffcae5, #98c9a9);
+    background-repeat: no-repeat;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: 40px auto; 
+}
+
+nav .links {
+    display: inline-block;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    border-color: white;
+}
+
+footer {
+    text-align: center
+}
